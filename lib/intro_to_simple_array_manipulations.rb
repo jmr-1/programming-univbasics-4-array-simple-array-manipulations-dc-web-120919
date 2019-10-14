@@ -8,3 +8,21 @@ def using_unshift(array, string='string')
   return updated_array
 end 
 
+def using_pop (array)
+  last_element = array.pop 
+  return last_element
+end 
+
+def pop_with_args(array)
+  last_2_elements = array.pop(2)
+  return last_2_elements
+end 
+
+def using_shift(array)
+  first_element = array.shift 
+  return first_element 
+end 
+
+def shift_with_args(array)
+  first_2_elements
+end 

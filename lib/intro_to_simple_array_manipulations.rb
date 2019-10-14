@@ -49,5 +49,11 @@ def using_flatten(array)
 end 
 
 def using_delete(array, string='string')
-  
+  deleted_array = array.delete(string)
+  return deleted_array
+end 
+
+def using_delete_at(array, integer='0')
+    # defaults to deleting the first element, at index 0 
+    delete_at = array[integer].
 end 

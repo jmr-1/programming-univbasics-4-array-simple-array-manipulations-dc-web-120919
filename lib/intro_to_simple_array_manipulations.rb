@@ -24,5 +24,10 @@ def using_shift(array)
 end 
 
 def shift_with_args(array)
-  first_2_elements
+  first_2_elements = array.shift(2)
+  return first_2_elements
+end 
+
+def using_concat(array, array2=[])
+  combined_array = array.concat(array2)
 end 

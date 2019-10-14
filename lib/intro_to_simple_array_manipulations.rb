@@ -3,4 +3,8 @@ def using_push(array, element='new')
   return update_array
 end 
 
+def using_unshift(array, string='string')
+  updated_array = array.unshift(string)
+  return updated_array
+end 
 

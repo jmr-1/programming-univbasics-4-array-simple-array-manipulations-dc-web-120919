@@ -30,4 +30,9 @@ end
 
 def using_concat(array, array2=[])
   combined_array = array.concat(array2)
+  return combined_array
+end 
+
+def using_insert(array, element='')
+  return array.insert(4, element)
 end 

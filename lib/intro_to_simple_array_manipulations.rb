@@ -53,7 +53,7 @@ def using_delete(array, string='string')
   return deleted_array
 end 
 
-def using_delete_at(array, integer='0')
+def using_delete_at(array, index='0')
     # defaults to deleting the first element, at index 0 
     delete_at = array.delete_at(index)
     return delete_at 

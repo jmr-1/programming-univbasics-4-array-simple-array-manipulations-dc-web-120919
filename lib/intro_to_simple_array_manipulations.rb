@@ -43,6 +43,6 @@ def using_uniq(array)
   return removed_duplicates
 end
 
-def using_flatten()
+def using_flatten(array)
   
 end 

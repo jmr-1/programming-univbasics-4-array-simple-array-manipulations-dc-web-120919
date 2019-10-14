@@ -55,5 +55,7 @@ end
 
 def using_delete_at(array, integer='0')
     # defaults to deleting the first element, at index 0 
-    delete_at = array[integer].
+    delete_at = array.delete_at(index)
+    return delete_at 
 end 
+

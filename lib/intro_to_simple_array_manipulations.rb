@@ -34,9 +34,15 @@ def using_concat(array, array2=[])
 end 
 
 def using_insert(array, element='')
-  return array.insert(4, element)
+  inserted_array = array.insert(4, element)
+  return inserted_array 
 end 
 
 def using_uniq(array)
+  removed_duplicates = array.uniq 
+  return removed_duplicates
+end
+
+def using_flatten()
   
-assert_select_encoded
+end 
